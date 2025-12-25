@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silent Thinking Player</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .audio-container {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        h1 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 20px;
+            word-wrap: break-word; /* Prevents long titles from breaking layout */
+        }
+        audio {
+            width: 100%;
+            outline: none;
+            margin-bottom: 15px;
+        }
+        .file-info {
+            color: #666;
+            font-size: 13px;
+            background-color: #eee;
+            padding: 5px 10px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="audio-container">
+        <h1>The Crawshaw carnie story</h1>
+        
+        <audio controls>
+            <source src="./SILENT_THINKING_1.m4a" type="audio/mp4">
+            Your browser does not support the audio element.
+        </audio>
+
+        <div class="file-info">24MB • M4A</div>
+    </div>
+
+</body>
+</html>
