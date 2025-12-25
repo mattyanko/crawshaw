@@ -13,6 +13,8 @@
             align-items: center;
             height: 100vh;
             margin: 0;
+            /* Optional: prevent selecting text so it feels more like an app */
+            user-select: none;
         }
         .audio-container {
             background: white;
@@ -27,7 +29,6 @@
             font-size: 22px;
             color: #333;
             margin-bottom: 20px;
-            word-wrap: break-word; /* Prevents long titles from breaking layout */
         }
         audio {
             width: 100%;
